@@ -1,0 +1,22 @@
+
+<div class="con-r">
+  <div class="con-r-zj">
+    <div class="t1">
+      <h3>推荐专家</h3>
+    </div>
+    <div *ngFor="let expertItem of expertItems" class="tr">
+      <ul>
+        <li class="expertlist">
+          <a [routerLink]="['/expertinfo',2]">
+            <img src="{{expertItem.img}}" alt="">
+            <p>{{expertItem.name}}</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="text-center"><a href="#">查看更多</a></div>
+  </div>
+</div>
+
+
+

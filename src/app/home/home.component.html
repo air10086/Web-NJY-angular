@@ -1,0 +1,58 @@
+<div class="container">
+  <!--轮播图-->
+  <div class="carousel">
+    <app-carousl></app-carousl>
+  </div>
+  <!--头条-->
+  <div class="news">
+    <div class="news-title-index" style=" background-color: #e85a00;">
+      <h3>头  条</h3>
+    </div>
+    <div class="news-container">
+      <ul class="top-news">
+        <app-headline></app-headline>
+      </ul>
+      <div style="clear: both"></div>
+      <div class="news-more" style=" border-top: 2px solid #fafafa;">
+        <a [routerLink]="['../news']">
+          <span>查看更多</span>
+        </a>
+      </div>
+      <div style="clear: both;"></div>
+
+    </div>
+  </div>
+  <!--提问-->
+  <div class="index-ask news">
+  <div class="news-title-index" style="background-color: #10d063">
+    <h3>提问</h3>
+  </div>
+  <ul class="a-content">
+    <app-ask1></app-ask1>
+  </ul>
+  <div style="clear: both;"></div>
+  <div class="news-more" style="line-height: 20px;">
+    <a [routerLink]="['../ask']">
+      <span>查看更多</span>
+    </a>
+  </div>
+  <div style="clear: both;"></div>
+</div>
+  <!--视频-->
+  <div class="cont-video news">
+    <div class="news-title-index" style="background-color: #2790da;">
+      <h3>视  频</h3>
+    </div>
+    <div class="cont1-r-r">
+      <ul>
+        <app-video1></app-video1>
+        <div style="clear: both;"></div>
+      </ul>
+      <div class="news-more" style="border-top: 2px solid #fafafa">
+        <a [routerLink]="['../video']">
+          <span>查看更多</span>
+        </a>
+      </div>
+    </div>
+</div>
+</div>

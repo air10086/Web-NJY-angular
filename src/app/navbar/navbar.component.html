@@ -1,0 +1,22 @@
+<div class="navbar-header">
+  <div class="menu">
+    <div class="menu-logo">
+      <img src="http://www.jsnjy.net.cn/images/logo_njy.png"alt="">
+    </div>
+    <ul class="menu-tab">
+      <li id="home" ><a [routerLink]="['./home']" >首页</a></li>
+      <li id="news"><a [routerLink]="['./news']" >资讯</a></li>
+      <li id="video"><a [routerLink]="['./video']" >视频</a></li>
+      <li id="ask"><a [routerLink]="['./ask']" >提问</a></li>
+      <li id="exchange"><a [routerLink]="['./exchange']" >交流</a></li>
+      <li id="zhibo"><a [routerLink]="['./zhibo']">直播</a></li>
+      <li id="mine"><a [routerLink]="['./mine']">个人</a></li>
+    </ul>
+  </div>
+  <div class="row">
+    <ul class="list-unstyled nav nav-pills  nav_zc_dl ">
+      <li class="success" id="user"><a [routerLink] = "['./mine']">您好,{{user_name}}</a></li>
+      <li class="success" id="register"><a [routerLink] = "['/login']">退出</a></li>
+    </ul>
+  </div>
+</div>

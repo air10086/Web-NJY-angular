@@ -1,0 +1,17 @@
+<div class="n-content">
+  <ul *ngFor="let content of contents" class="news-con">
+    <li>
+      <h3>
+        <a href="#" class="news-title">{{content.title}}</a>
+      </h3>
+      <div class="news-c">
+        <a href="">
+          <img class="news-coverUrl" src="http://object.jsnjy.net.cn/OSS/20180511/3424566c8ca74577b707378dbf5bb2f4.png" alt="">
+        </a>
+        </div>
+            <p class="n-newsContext"><a href="">{{content.text}}</a> </p>
+            <p class="news-tm"><a href="">{{content.data}}&nbsp;阅读量：{{content.read}}</a></p>
+    </li>
+  </ul>
+</div>
+

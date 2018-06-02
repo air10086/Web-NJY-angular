@@ -1,0 +1,69 @@
+.container{
+  height: 700px;
+  width: 100%;
+  background-image: url("../../assets/image/login.jpg");
+  background-repeat: repeat;
+}
+
+.page_location{
+  margin-top: 100px;
+  background-color: rgb(211, 237, 214);
+}
+
+.page_location:hover{
+  margin-top: 100px;
+  background-color: rgb(190, 214, 193);
+
+}
+.login-content{
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.glyphicon{
+  color: rgba(0, 158, 1,0.5);
+  font-size: 18px;
+}
+
+.form-location{
+  margin-bottom: 20px;
+}
+
+.button-location{
+  margin-top: 15px;
+}
+.theme{
+  color: #808080;
+  font-weight: normal;
+  text-decoration: none;
+}
+.line{
+  width: 20%;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+.flex-lay{
+  display: flex;
+  flex-flow: nowrap column;
+}
+
+img{
+  width: 32px;
+  height: 32px;
+}
+
+.h2-theme{
+  color: rgb(92, 184, 92);
+  line-height: 40px ;
+  font-weight: bolder;
+}
+
+.login-title{
+  margin-bottom: 20px;
+}
+.foot-location{
+  margin-bottom: 15px;
+}

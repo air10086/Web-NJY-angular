@@ -1,0 +1,22 @@
+<li *ngFor="let videoPlayer of videoPlay_V_vontent">
+  <div class="img2">
+    <a target="_blank" href="{{videoPlayer.video_palyer}}"> <div class="player">
+    </div>
+      <img style="width: 100%;height: 250px;" src="{{videoPlayer.video_pic}}" alt="">
+    </a>
+  </div>
+  <div class="v-title">
+    <div class="v-title-right">
+      <a target="_blank" href="{{videoPlayer.video_palyer}}">{{videoPlayer.video_title}}</a>
+    </div>
+    <div class="con-text"> <a target="_blank" href="http://object.jsnjy.net.cn/OSS/20180510/510.mp4">
+      <span class="span-r">{{videoPlayer.video_number}}</span>
+    </a>
+    </div>
+    <a target="_blank" href="{{videoPlayer.video_palyer}}">
+    </a>
+  </div>
+  <a target="_blank" href="{{videoPlayer.video_palyer}}">
+  </a>
+</li>
+

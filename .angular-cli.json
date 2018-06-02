@@ -19,9 +19,14 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../src/assets/css/bootstrap.css",
+        "../node_modules/ng-zorro-antd/src/ng-zorro-antd.less"
       ],
-      "scripts": [],
+      "scripts": [
+        "../src/assets/js/jquery.js",
+        "../src/assets/js/bootstrap.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

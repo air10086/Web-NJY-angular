@@ -1,0 +1,20 @@
+<li [routerLink]="['../exchangeDetail']" *ngFor="let exchange of exchanges">
+  <div class="user">
+    <img src="{{exchange.headImg}}" width="50" height="50" style="border-radius: 50%;" alt="">
+    <span style="margin-left: 15px;">{{exchange.name}}&nbsp;&nbsp;&nbsp;&nbsp;{{exchange.date}}</span> </div>
+  <div class="news-c">
+    <p><a [routerLink]="['../exchangeDetail']" style="text-decoration:none;">{{exchange.content}}</a>
+      <a [routerLink]="['../exchangeDetail']">{{exchange.detail}}</a>
+    </p>
+    <p class="news-tm">
+      <span>{{exchange.dianzan}}&nbsp;&nbsp;</span>
+      <span>{{exchange.collect}}&nbsp;&nbsp;</span>
+      <span>{{exchange.comment}}</span>
+    </p>
+  </div>
+  <div class="e-img">
+    <a [routerLink]="['../exchangeDetail']"><img src="{{exchange.img}}" alt="">
+    </a>
+  </div>
+  <div style="clear: both;"></div>
+</li>

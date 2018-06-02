@@ -1,0 +1,26 @@
+<div *ngFor="let headline of headlineList" class="headline">
+  <li >
+    <a [routerLink]="['../news']" target="_blank" >
+      <h4>{{headline.title}}</h4>
+    </a>
+    <div class="n-time">
+      <a [routerLink]="['../news']" target="_blank" >
+        <img src="http://www.jsnjy.net.cn/images/calendar.png" style="width: 14px;">
+        <span style="color:#808080;font-size: 12px;">{{headline.dataTime}}&nbsp;&nbsp;</span>
+        <img src="http://www.jsnjy.net.cn/images/icon_look.png" style="width: 16px;">
+        <span style="color: #808080;font-size: 12px;">&nbsp;{{headline.readNum}}</span>
+      </a>
+    </div>
+    <a [routerLink]="['../news']" target="_blank">
+      <img class="news-img" src="{{headline.image}}" alt="">
+    </a>
+    <div class="n-content">
+      <a [routerLink]="['../news']" target="_blank">
+        <p>{{headline.content}}</p>
+      </a>
+    </div>
+  </li>
+</div>
+
+
+

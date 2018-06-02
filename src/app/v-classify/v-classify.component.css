@@ -1,0 +1,18 @@
+
+li:first-child{
+  border-top: 2px solid #fafafa;
+}
+li{
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  border-bottom: 2px solid #fafafa;
+
+}
+
+a{
+  color: rgb(51, 51, 51);
+  text-decoration: none;
+
+}
+

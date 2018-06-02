@@ -1,0 +1,47 @@
+.main-container{
+  width: 1024px;
+  margin: 0 auto;
+}
+.video-list{
+  width: 100%;
+  height: auto;
+}
+.con-r{
+  width: 25%;
+  height: auto;
+  float: left;
+  background-color: white;
+}
+
+.video1-list {
+  z-index: 99;
+  width: 72%;
+  margin-bottom: 30px;
+  margin-left: 3%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+}
+.con-r-zj{
+  width: 100%;
+  height: auto;
+  margin-top: -20px;
+}
+.t1 h3{
+  text-align: center;
+  font-size: 18px;
+  width: 48%;
+  margin-left: 25%;
+  color: black;
+  line-height: 64px;
+  background-image:  url("http://www.jsnjy.net.cn/images/icon_category_08.png");
+}
+
+
+
+.tr{
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
